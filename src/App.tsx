@@ -32,7 +32,7 @@ function App() {
             <div className="w-full md:w-1/2 relative">
               <div className="relative w-full overflow-hidden" style={{ paddingBottom: '100%' }}>
                 <img
-                  src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=2669"
+                  src="/img/handshake2.png"
                   alt="Handshake representing connection"
                   className="absolute inset-0 w-full h-full object-cover"
                   style={{
