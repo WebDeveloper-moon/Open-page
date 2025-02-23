@@ -2,7 +2,7 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white main">
       {/* Header Section */}
       <div className="relative overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -26,21 +26,6 @@ function App() {
               <button className="px-6 py-2 border-2 border-black hover:bg-black hover:text-white transition-colors duration-300">
                 CTA button
               </button>
-            </div>
-            
-            {/* Right Image */}
-            <div className="w-full md:w-1/2 relative">
-              <div className="relative w-full overflow-hidden" style={{ paddingBottom: '100%' }}>
-                <img
-                  src='./assets/img/1.png'
-                  alt="Handshake representing connection"
-                  className="absolute inset-0 w-full h-full object-cover"
-                  style={{
-                    objectPosition: 'center 25%',
-                    transform: 'scale(1.5)',
-                  }}
-                />
-              </div>
             </div>
           </div>
         </div>
